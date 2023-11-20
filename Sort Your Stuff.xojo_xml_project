@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RBProject version="2023r3.1" FormatVersion="2" MinIDEVersion="20190200">
+<block type="Project" ID="0">
+ <ProjectSavedInVers>2023.031</ProjectSavedInVers>
+ <IDEVersion>20230301</IDEVersion>
+ <MajorVersion>1</MajorVersion>
+ <MinorVersion>0</MinorVersion>
+ <SubVersion>0</SubVersion>
+ <Release>0</Release>
+ <NonRelease>1</NonRelease>
+ <Region></Region>
+ <ShortVersion>1.0.0</ShortVersion>
+ <LongVersion></LongVersion>
+ <InfoVersion></InfoVersion>
+ <AutoIncVersion>1</AutoIncVersion>
+ <DefaultViewID>306534399</DefaultViewID>
+ <ProjectType>5</ProjectType>
+ <DefaultLanguage>0</DefaultLanguage>
+ <CurrentLanguage>0</CurrentLanguage>
+ <DefaultEncoding>0</DefaultEncoding>
+ <BuildFlags>16640</BuildFlags>
+ <UseBuildsFolder>1</UseBuildsFolder>
+ <WebApp>0</WebApp>
+ <Icon>
+ </Icon>
+ <BundleIdentifier>com.realmakersinc.sortyourstuff</BundleIdentifier>
+ <DebuggerCommandLine></DebuggerCommandLine>
+ <BuildMobileName>Sort Your Stuff</BuildMobileName>
+ <MobileThemeColorName>green</MobileThemeColorName>
+ <MobileThemePrimaryColor>&amp;h00000000</MobileThemePrimaryColor>
+ <MobileThemeAccentColor>&amp;h00000000</MobileThemeAccentColor>
+ <MobileThemeStatusBarColor>&amp;h00000000</MobileThemeStatusBarColor>
+ <BuildForPlayStore>0</BuildForPlayStore>
+ <KeyStoreFile></KeyStoreFile>
+ <OptimizationLevel>0</OptimizationLevel>
+ <MacMinimumVersion></MacMinimumVersion>
+</block>
+<block type="Module" ID="323217407">
+ <ObjName>App</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>MobileApplication</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <IsApplicationObject>1</IsApplicationObject>
+ <Compatibility></Compatibility>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>BugVersion</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MajorVersion</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinorVersion</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>NonReleaseVersion</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Version</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ThemeColorName</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ThemeDarkColor</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>&amp;c000000</PropertyValue>
+   <ItemType>Color</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ThemeLightColor</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>&amp;c000000</PropertyValue>
+   <ItemType>Color</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ThemeMediumColor</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>&amp;c000000</PropertyValue>
+   <ItemType>Color</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="MobileScreen" ID="306534399">
+ <ObjName>Screen1</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>MobileScreen</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility>(TargetConsole and (Target32Bit or Target64Bit)) or  (TargetWeb and (Target32Bit or Target64Bit)) or  (TargetDesktop and (Target32Bit or Target64Bit)) or  (TargetIOS and (Target64Bit)) or  (TargetAndroid and (Target64Bit))</Compatibility>
+ <PropertyVal Name="Orientation">0</PropertyVal>
+ <PropertyVal Name="HasBackButton">False</PropertyVal>
+ <PropertyVal Name="Modal">False</PropertyVal>
+ <PropertyVal Name="HasNavigationBar">True</PropertyVal>
+ <PropertyVal Name="Title">Untitled</PropertyVal>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ControlCount</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Title</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>Untitled</PropertyValue>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasNavigationBar</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Modal</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>NavigationBarHeight</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasBackButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+ <MobileDeviceType>1</MobileDeviceType>
+ <Orientation>0</Orientation>
+</block>
+<block type="ApplicationIcon" ID="432218111">
+ <ObjName>App Icon</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <ItemName>App Icon</ItemName>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>16</Device>
+   <Height>16</Height>
+   <Orientation>0</Orientation>
+   <Platform>6</Platform>
+   <Resolution>72</Resolution>
+   <Width>16</Width>
+   <HeightDouble>16</HeightDouble>
+   <WidthDouble>16</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>16</Device>
+   <Height>16</Height>
+   <Orientation>0</Orientation>
+   <Platform>2</Platform>
+   <Resolution>144</Resolution>
+   <Width>16</Width>
+   <HeightDouble>16</HeightDouble>
+   <WidthDouble>16</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>16</Device>
+   <Height>32</Height>
+   <Orientation>0</Orientation>
+   <Platform>6</Platform>
+   <Resolution>72</Resolution>
+   <Width>32</Width>
+   <HeightDouble>32</HeightDouble>
+   <WidthDouble>32</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>16</Device>
+   <Height>32</Height>
+   <Orientation>0</Orientation>
+   <Platform>2</Platform>
+   <Resolution>144</Resolution>
+   <Width>32</Width>
+   <HeightDouble>32</HeightDouble>
+   <WidthDouble>32</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment>Tiles / Thumbnails</Comment>
+   <Device>16</Device>
+   <Height>48</Height>
+   <Orientation>0</Orientation>
+   <Platform>4</Platform>
+   <Resolution>96</Resolution>
+   <Width>48</Width>
+   <HeightDouble>48</HeightDouble>
+   <WidthDouble>48</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>16</Device>
+   <Height>128</Height>
+   <Orientation>0</Orientation>
+   <Platform>2</Platform>
+   <Resolution>72</Resolution>
+   <Width>128</Width>
+   <HeightDouble>128</HeightDouble>
+   <WidthDouble>128</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>16</Device>
+   <Height>128</Height>
+   <Orientation>0</Orientation>
+   <Platform>2</Platform>
+   <Resolution>144</Resolution>
+   <Width>128</Width>
+   <HeightDouble>128</HeightDouble>
+   <WidthDouble>128</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>16</Device>
+   <Height>256</Height>
+   <Orientation>0</Orientation>
+   <Platform>6</Platform>
+   <Resolution>72</Resolution>
+   <Width>256</Width>
+   <HeightDouble>256</HeightDouble>
+   <WidthDouble>256</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>16</Device>
+   <Height>256</Height>
+   <Orientation>0</Orientation>
+   <Platform>2</Platform>
+   <Resolution>144</Resolution>
+   <Width>256</Width>
+   <HeightDouble>256</HeightDouble>
+   <WidthDouble>256</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>16</Device>
+   <Height>512</Height>
+   <Orientation>0</Orientation>
+   <Platform>2</Platform>
+   <Resolution>72</Resolution>
+   <Width>512</Width>
+   <HeightDouble>512</HeightDouble>
+   <WidthDouble>512</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>16</Device>
+   <Height>512</Height>
+   <Orientation>0</Orientation>
+   <Platform>2</Platform>
+   <Resolution>144</Resolution>
+   <Width>512</Width>
+   <HeightDouble>512</HeightDouble>
+   <WidthDouble>512</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="22">4E6F74696669636174696F6E0D0A694F5320372D3130</Hex></Comment>
+   <Device>3</Device>
+   <Height>20</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>72</Resolution>
+   <Width>20</Width>
+   <HeightDouble>20</HeightDouble>
+   <WidthDouble>20</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="22">4E6F74696669636174696F6E0D0A694F5320372D3130</Hex></Comment>
+   <Device>3</Device>
+   <Height>20</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>144</Resolution>
+   <Width>20</Width>
+   <HeightDouble>20</HeightDouble>
+   <WidthDouble>20</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="22">4E6F74696669636174696F6E0D0A694F5320372D3130</Hex></Comment>
+   <Device>3</Device>
+   <Height>20</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>216</Resolution>
+   <Width>20</Width>
+   <HeightDouble>20</HeightDouble>
+   <WidthDouble>20</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="18">53657474696E67730D0A694F5320352D3130</Hex></Comment>
+   <Device>2</Device>
+   <Height>29</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>72</Resolution>
+   <Width>29</Width>
+   <HeightDouble>29</HeightDouble>
+   <WidthDouble>29</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="18">53657474696E67730D0A694F5320352D3130</Hex></Comment>
+   <Device>7</Device>
+   <Height>29</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>144</Resolution>
+   <Width>29</Width>
+   <HeightDouble>29</HeightDouble>
+   <WidthDouble>29</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="18">53657474696E67730D0A694F5320352D3130</Hex></Comment>
+   <Device>1</Device>
+   <Height>29</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>216</Resolution>
+   <Width>29</Width>
+   <HeightDouble>29</HeightDouble>
+   <WidthDouble>29</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="19">53706F746C696768740D0A694F5320372D3130</Hex></Comment>
+   <Device>2</Device>
+   <Height>40</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>72</Resolution>
+   <Width>40</Width>
+   <HeightDouble>40</HeightDouble>
+   <WidthDouble>40</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="19">53706F746C696768740D0A694F5320372D3130</Hex></Comment>
+   <Device>7</Device>
+   <Height>40</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>144</Resolution>
+   <Width>40</Width>
+   <HeightDouble>40</HeightDouble>
+   <WidthDouble>40</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="19">53706F746C696768740D0A694F5320372D3130</Hex></Comment>
+   <Device>1</Device>
+   <Height>40</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>216</Resolution>
+   <Width>40</Width>
+   <HeightDouble>40</HeightDouble>
+   <WidthDouble>40</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="13">4170700D0A694F5320372D3130</Hex></Comment>
+   <Device>1</Device>
+   <Height>60</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>144</Resolution>
+   <Width>60</Width>
+   <HeightDouble>60</HeightDouble>
+   <WidthDouble>60</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="13">4170700D0A694F5320372D3130</Hex></Comment>
+   <Device>1</Device>
+   <Height>60</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>216</Resolution>
+   <Width>60</Width>
+   <HeightDouble>60</HeightDouble>
+   <WidthDouble>60</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="13">4170700D0A694F5320372D3130</Hex></Comment>
+   <Device>2</Device>
+   <Height>76</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>72</Resolution>
+   <Width>76</Width>
+   <HeightDouble>76</HeightDouble>
+   <WidthDouble>76</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="13">4170700D0A694F5320372D3130</Hex></Comment>
+   <Device>2</Device>
+   <Height>76</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>144</Resolution>
+   <Width>76</Width>
+   <HeightDouble>76</HeightDouble>
+   <WidthDouble>76</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="13">4170700D0A694F5320392D3130</Hex></Comment>
+   <Device>2</Device>
+   <Height>83</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>144</Resolution>
+   <Width>83</Width>
+   <HeightDouble>84</HeightDouble>
+   <WidthDouble>84</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment><Hex bytes="14">4170700D0A694F532031302D3131</Hex></Comment>
+   <Device>8192</Device>
+   <Height>1024</Height>
+   <Orientation>0</Orientation>
+   <Platform>1</Platform>
+   <Resolution>72</Resolution>
+   <Width>1024</Width>
+   <HeightDouble>1024</HeightDouble>
+   <WidthDouble>1024</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment>Android 36x36 Icon</Comment>
+   <Device>1</Device>
+   <Height>36</Height>
+   <Orientation>0</Orientation>
+   <Platform>16</Platform>
+   <Resolution>72</Resolution>
+   <Width>36</Width>
+   <HeightDouble>36</HeightDouble>
+   <WidthDouble>36</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment>Android 48x48 Icon</Comment>
+   <Device>1</Device>
+   <Height>48</Height>
+   <Orientation>0</Orientation>
+   <Platform>16</Platform>
+   <Resolution>72</Resolution>
+   <Width>48</Width>
+   <HeightDouble>48</HeightDouble>
+   <WidthDouble>48</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment>Android 72x72 Icon</Comment>
+   <Device>1</Device>
+   <Height>72</Height>
+   <Orientation>0</Orientation>
+   <Platform>16</Platform>
+   <Resolution>72</Resolution>
+   <Width>72</Width>
+   <HeightDouble>72</HeightDouble>
+   <WidthDouble>72</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment>Android 96x96 Icon</Comment>
+   <Device>1</Device>
+   <Height>96</Height>
+   <Orientation>0</Orientation>
+   <Platform>16</Platform>
+   <Resolution>72</Resolution>
+   <Width>96</Width>
+   <HeightDouble>96</HeightDouble>
+   <WidthDouble>96</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment>Android 144x144 Icon</Comment>
+   <Device>1</Device>
+   <Height>144</Height>
+   <Orientation>0</Orientation>
+   <Platform>16</Platform>
+   <Resolution>72</Resolution>
+   <Width>144</Width>
+   <HeightDouble>144</HeightDouble>
+   <WidthDouble>144</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment>Android 192x192 Icon</Comment>
+   <Device>1</Device>
+   <Height>192</Height>
+   <Orientation>0</Orientation>
+   <Platform>16</Platform>
+   <Resolution>72</Resolution>
+   <Width>192</Width>
+   <HeightDouble>192</HeightDouble>
+   <WidthDouble>192</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+</block>
+<block type="BuildAutomation" ID="447678463">
+ <ObjName>Build Automation</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="1553166335">
+ <ObjName>Linux</ObjName>
+ <ObjContainerID>447678463</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="2050220031">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>1553166335</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="626472959">
+ <ObjName>Mac OS X</ObjName>
+ <ObjContainerID>447678463</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="2137159679">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>626472959</ObjContainerID>
+</block>
+<block type="SignProjectScriptStep" ID="1650411519">
+ <ObjName>Sign</ObjName>
+ <ObjContainerID>626472959</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="274845695">
+ <ObjName>Windows</ObjName>
+ <ObjContainerID>447678463</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="175462399">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>274845695</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="560185343">
+ <ObjName>Android</ObjName>
+ <ObjContainerID>447678463</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="1858979839">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>560185343</ObjContainerID>
+</block>
+<block type="Folder" ID="1643829247">
+ <ObjName>IMG - logo</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+</block>
+<block type="MultiImage" ID="1943660543">
+ <ObjName>SYS_logo_144</ObjName>
+ <ObjContainerID>1643829247</ObjContainerID>
+ <ItemName>SYS_logo_144</ItemName>
+ <ImageRepresentation>
+  <SaveInfo><Hex bytes="96">00F1D1730102010000000040433A5C55736572735C6F6C6463695C4465736B746F705C4769744875625C536F7274596F757253747566665C494D475C5359535F6C6F676F5F3134342E706E670300000000010004000000000100000000000000</Hex></SaveInfo>
+  <FullPath>C:\Users\oldci\Desktop\GitHub\SortYourStuff\IMG\SYS_logo_144.png</FullPath>
+  <PartialPath>IMG\SYS_logo_144.png</PartialPath>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>144</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>72</Resolution>
+   <Width>144</Width>
+   <HeightDouble>144</HeightDouble>
+   <WidthDouble>144</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>144</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>144</Resolution>
+   <Width>144</Width>
+   <HeightDouble>144</HeightDouble>
+   <WidthDouble>144</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>144</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>216</Resolution>
+   <Width>144</Width>
+   <HeightDouble>144</HeightDouble>
+   <WidthDouble>144</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+</block>
+<block type="MultiImage" ID="34859007">
+ <ObjName>SYS_logo_96</ObjName>
+ <ObjContainerID>1643829247</ObjContainerID>
+ <ItemName>SYS_logo_96</ItemName>
+ <ImageRepresentation>
+  <SaveInfo><Hex bytes="95">00F1D173010201000000003F433A5C55736572735C6F6C6463695C4465736B746F705C4769744875625C536F7274596F757253747566665C494D475C5359535F6C6F676F5F39362E706E670300000000010004000000000100000000000000</Hex></SaveInfo>
+  <FullPath>C:\Users\oldci\Desktop\GitHub\SortYourStuff\IMG\SYS_logo_96.png</FullPath>
+  <PartialPath>IMG\SYS_logo_96.png</PartialPath>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>96</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>72</Resolution>
+   <Width>96</Width>
+   <HeightDouble>96</HeightDouble>
+   <WidthDouble>96</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>96</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>144</Resolution>
+   <Width>96</Width>
+   <HeightDouble>96</HeightDouble>
+   <WidthDouble>96</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>96</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>216</Resolution>
+   <Width>96</Width>
+   <HeightDouble>96</HeightDouble>
+   <WidthDouble>96</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+</block>
+<block type="MultiImage" ID="2016849919">
+ <ObjName>SYS_logo_72</ObjName>
+ <ObjContainerID>1643829247</ObjContainerID>
+ <ItemName>SYS_logo_72</ItemName>
+ <ImageRepresentation>
+  <SaveInfo><Hex bytes="95">00F1D173010201000000003F433A5C55736572735C6F6C6463695C4465736B746F705C4769744875625C536F7274596F757253747566665C494D475C5359535F6C6F676F5F37322E706E670300000000010004000000000100000000000000</Hex></SaveInfo>
+  <FullPath>C:\Users\oldci\Desktop\GitHub\SortYourStuff\IMG\SYS_logo_72.png</FullPath>
+  <PartialPath>IMG\SYS_logo_72.png</PartialPath>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>72</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>72</Resolution>
+   <Width>72</Width>
+   <HeightDouble>72</HeightDouble>
+   <WidthDouble>72</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>72</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>144</Resolution>
+   <Width>72</Width>
+   <HeightDouble>72</HeightDouble>
+   <WidthDouble>72</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>72</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>216</Resolution>
+   <Width>72</Width>
+   <HeightDouble>72</HeightDouble>
+   <WidthDouble>72</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+</block>
+<block type="MultiImage" ID="1863292927">
+ <ObjName>SYS_logo_48</ObjName>
+ <ObjContainerID>1643829247</ObjContainerID>
+ <ItemName>SYS_logo_48</ItemName>
+ <ImageRepresentation>
+  <SaveInfo><Hex bytes="95">00F1D173010201000000003F433A5C55736572735C6F6C6463695C4465736B746F705C4769744875625C536F7274596F757253747566665C494D475C5359535F6C6F676F5F34382E706E670300000000010004000000000100000000000000</Hex></SaveInfo>
+  <FullPath>C:\Users\oldci\Desktop\GitHub\SortYourStuff\IMG\SYS_logo_48.png</FullPath>
+  <PartialPath>IMG\SYS_logo_48.png</PartialPath>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>48</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>72</Resolution>
+   <Width>48</Width>
+   <HeightDouble>48</HeightDouble>
+   <WidthDouble>48</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>48</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>144</Resolution>
+   <Width>48</Width>
+   <HeightDouble>48</HeightDouble>
+   <WidthDouble>48</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>48</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>216</Resolution>
+   <Width>48</Width>
+   <HeightDouble>48</HeightDouble>
+   <WidthDouble>48</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+</block>
+<block type="MultiImage" ID="1575929855">
+ <ObjName>SYS_logo_36</ObjName>
+ <ObjContainerID>1643829247</ObjContainerID>
+ <ItemName>SYS_logo_36</ItemName>
+ <ImageRepresentation>
+  <SaveInfo><Hex bytes="95">00F1D173010201000000003F433A5C55736572735C6F6C6463695C4465736B746F705C4769744875625C536F7274596F757253747566665C494D475C5359535F6C6F676F5F33362E706E670300000000010004000000000100000000000000</Hex></SaveInfo>
+  <FullPath>C:\Users\oldci\Desktop\GitHub\SortYourStuff\IMG\SYS_logo_36.png</FullPath>
+  <PartialPath>IMG\SYS_logo_36.png</PartialPath>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>36</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>72</Resolution>
+   <Width>36</Width>
+   <HeightDouble>36</HeightDouble>
+   <WidthDouble>36</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>36</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>144</Resolution>
+   <Width>36</Width>
+   <HeightDouble>36</HeightDouble>
+   <WidthDouble>36</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>36</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>216</Resolution>
+   <Width>36</Width>
+   <HeightDouble>36</HeightDouble>
+   <WidthDouble>36</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+</block>
+<block type="MultiImage" ID="1864617983">
+ <ObjName>SYS_logo_192</ObjName>
+ <ObjContainerID>1643829247</ObjContainerID>
+ <ItemName>SYS_logo_192</ItemName>
+ <ImageRepresentation>
+  <SaveInfo><Hex bytes="96">00F1D1730102010000000040433A5C55736572735C6F6C6463695C4465736B746F705C4769744875625C536F7274596F757253747566665C494D475C5359535F6C6F676F5F3139322E706E670300000000010004000000000100000000000000</Hex></SaveInfo>
+  <FullPath>C:\Users\oldci\Desktop\GitHub\SortYourStuff\IMG\SYS_logo_192.png</FullPath>
+  <PartialPath>IMG\SYS_logo_192.png</PartialPath>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>192</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>72</Resolution>
+   <Width>192</Width>
+   <HeightDouble>192</HeightDouble>
+   <WidthDouble>192</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>192</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>144</Resolution>
+   <Width>192</Width>
+   <HeightDouble>192</HeightDouble>
+   <WidthDouble>192</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+ <ImageRepresentation>
+  <ImageSpecification>
+   <Comment></Comment>
+   <Device>31</Device>
+   <Height>192</Height>
+   <Orientation>0</Orientation>
+   <Platform>15</Platform>
+   <Resolution>216</Resolution>
+   <Width>192</Width>
+   <HeightDouble>192</HeightDouble>
+   <WidthDouble>192</WidthDouble>
+  </ImageSpecification>
+ </ImageRepresentation>
+</block>
+<block type="MobileContainer" ID="100737023">
+ <ObjName>Container1</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>MobileContainer</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility>(TargetConsole and (Target32Bit or Target64Bit)) or  (TargetWeb and (Target32Bit or Target64Bit)) or  (TargetDesktop and (Target32Bit or Target64Bit)) or  (TargetIOS and (Target64Bit)) or  (TargetAndroid and (Target64Bit))</Compatibility>
+ <PropertyVal Name="AccessibilityLabel"></PropertyVal>
+ <PropertyVal Name="AccessibilityHint"></PropertyVal>
+ <PropertyVal Name="Visible">True</PropertyVal>
+ <PropertyVal Name="Enabled">True</PropertyVal>
+ <PropertyVal Name="LockBottom">False</PropertyVal>
+ <PropertyVal Name="LockTop">False</PropertyVal>
+ <PropertyVal Name="LockRight">False</PropertyVal>
+ <PropertyVal Name="LockLeft">False</PropertyVal>
+ <PropertyVal Name="Width">360</PropertyVal>
+ <PropertyVal Name="Height">400</PropertyVal>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Height</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>400</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Width</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>360</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockLeft</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockRight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockTop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockBottom</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Enabled</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>UI Control</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Visible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>UI Control</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AccessibilityHint</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>UI Control</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AccessibilityLabel</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>UI Control</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ControlCount</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+ <MobileDeviceType>1</MobileDeviceType>
+ <Orientation>0</Orientation>
+ <ControlBehavior>
+  <Superclass>MobileLabel</Superclass>
+ </ControlBehavior>
+ <Control>
+  <ControlClass>MobileLabel</ControlClass>
+  <ItemName>MobileLabel</ItemName>
+  <PropertyVal Name="AccessibilityHint"></PropertyVal>
+  <PropertyVal Name="AccessibilityLabel"></PropertyVal>
+  <PropertyVal Name="Alignment">0</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Height">30</PropertyVal>
+  <PropertyVal Name="Left">20</PropertyVal>
+  <PropertyVal Name="LineBreakMode">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockLeft">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">False</PropertyVal>
+  <PropertyVal Name="Name">Label1</PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">MobileLabel</PropertyVal>
+  <PropertyVal Name="Text">Untitled</PropertyVal>
+  <PropertyVal Name="TextColor">0</PropertyVal>
+  <PropertyVal Name="Top">30</PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Width">320</PropertyVal>
+  <ControlIndex>0</ControlIndex>
+  <Locked>0</Locked>
+  <PartID>857180159</PartID>
+ </Control>
+</block>
+<block type="UIState" ID="0">
+ <IOSDebugDevice>Pixel 3a API 34 extension level 7 x86 64 (Emulator)</IOSDebugDevice>
+ <StudioWindowState>
+  <EditBounds><Rect left="1508" top="198" width="1616" height="1335"/></EditBounds>
+  <WindowMaximized>0</WindowMaximized>
+  <Editors>
+   <EditorCount>1</EditorCount>
+   <Editor>
+    <EditorIndex>0</EditorIndex>
+    <EditorLocation>Container1</EditorLocation>
+    <EditorPath></EditorPath>
+    <EditingPartID>100737023</EditingPartID>
+    <EditorPath></EditorPath>
+   </Editor>
+   <SelectedTab>0</SelectedTab>
+  </Editors>
+ </StudioWindowState>
+</block>
+</RBProject>
